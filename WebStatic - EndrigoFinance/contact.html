@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c8ed7e20b6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./css/media.css">
+  
+  <title>Endrigo finance</title>
+
+</head>
+<body>
+  <title>Endrigo Finance</title>
+  
+
+</head>
+
+<body>
+
+
+    <header>
+        <img class="banner" src="./img/banner contato.jpg" alt="InvestimentoBanner">
+        <div class="navbar">
+            <ul>
+                <li><a href="./index.html">INICIAL</a></li>
+                <li><a href="./AboutUs.html">SOBRE</a></li>
+                <li><a href="./services.html">SERVICES</a></li>
+                <li><a href="./solutions.html">SOLUTIONS</a></li>
+                <li class="selected"><a href="./contact.html">Contact US</a></li>
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" id="lupa" placeholder="Buscar">
+            </ul>
+        </div>
+    </header>
+
+
+  <main>
+
+    <section class="Data">
+
+      <div class="cliente">
+      <form>
+        <fieldset class="dadosPessoais">
+            <legend>Dados Pessoais</legend>
+            <div id=dados>
+              <input type="text" name="nome" placeholder="digite seu Nome aqui">
+              <input type="tel" name="telefone" placeholder="digite seu Telefone">
+            </div>
+            <div id="local">
+              <input type="text" name="Cidade" placeholder="Digite sua Cidade." id="idTxtCidade" class="txtCidade">
+              <select id="idListUF" name="Estado" class="listUf">
+                <option selected="selected" value="nao_selecionado">Selecione seu estado...</option>
+                <option value="ac">Acre - AC</option>
+                <option value="al">Alagoas - AL</option>
+                <option value="ap">Amapa - AP</option>
+                <option value="am">Amazonas - AM</option>
+                <option value="ba">Bahia - BA</option>
+                <option value="ce">Ceará - CE</option>
+                <option value="df">Distrito Federal - DF</option>
+                <option value="es">Espírito Santo - ES</option>
+                <option value="go">Goiás - GO</option>
+                <option value="ma">Maranhão - MA</option>
+                <option value="mt">Mato Grosso - MT</option>
+                <option value="ms">Mato Grosso do Sul - MS</option>
+                <option value="mg">Minas Gerais - MG</option>
+                <option value="pa">Pará - PA</option>
+                <option value="pb">Paraíba - PB</option>
+                <option value="pr">Paraná - PR</option>
+                <option value="pe">Pernambuco - PE</option>
+                <option value="pi">Piauí - PI</option>
+                <option value="rj">Rio de Janeiro - RJ</option>
+                <option value="rn">Rio Grande do Norte - RN</option>
+                <option value="rs">Rio Grande do Sul - RS</option>
+                <option value="ro">Rondonia - RO</option>
+                <option value="rr">Roraima - RR</option>
+                <option value="sc">Santa Catarina - SC</option>
+                <option value="sp">São Paulo - SP</option>
+                <option value="se">Sergipe - SE</option>
+                <option value="to">Tocantins - TO</option>
+              </select>
+            </div>
+        </fieldset>
+
+        <fieldset class="sugestao">
+          <legend id="boxSugestao">Dados de sugestões</legend>
+          <div>
+            <input id="inputEmail" type="e-mail" name="email" placeholder="Digite seu e-mail">
+          </div>
+            <textarea id="textArea" name="mensagem" placeholder="digite a sua sugestão" required></textarea>
+          <div>
+            <input type="checkbox" name="anime" value="Anime">Desejo Receber E-mail de Ofertas 
+          </div>
+            <input id="inputEnviar" type="submit" name="enviar" value="Enviar">
+        </fieldset>      
+        </form>
+      </div>
+
+      <div class="empresa">
+        <img src="./img/contato.jpg" alt="imgContato">
+
+      </div>
+
+    </section>
+
+  </main>
+
+<div class="rodape">
+  <footer>
+      <p>Copyright © 2021 ENDRIGO COMPANY.</p>
+  </footer>
+</div>
+
+</body>
+</html>

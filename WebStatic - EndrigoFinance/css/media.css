@@ -1,0 +1,25 @@
+@media (max-width: 1280px) {
+  .navbar {
+    width: 900px;
+  }
+
+  .rodape {
+    width: 900px;
+  }
+}
+
+.posiçãoImpar {
+  width: 900px;
+}
+
+.posiçãoPar {
+  width: 900px;
+}
+
+.contentServicos {
+  width: 900px;
+}
+
+.sobreServicos {
+  width: 900px;
+}

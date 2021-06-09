@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+  font-size: 16px;
+  max-width: 900px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.banner {
+  width: 900px;
+  height: 308px;
+}
+
+.navbar {
+  background-color: #000205;
+  font-family: 'Montserrat', sans-serif, Roboto;
+}
+
+.navbar ul {
+  display: flex;
+
+  padding-left: 1.25rem;
+}
+
+.navbar li {
+  padding: 1rem;
+
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 0.9rem;
+
+  white-space: nowrap;
+
+  padding-bottom: 0.7rem;
+}
+
+.navbar input {
+  width: 100vw;
+  border-color: #0a1d4d;
+}
+
+li a:hover {
+  color: rgb(206, 71, 71);
+}
+
+.navbar label {
+  font-size: 1.5rem;
+  padding: 0.7rem 1rem;
+
+  color: #5019a8;
+  background-color: #f5f5dc;
+}
+
+.selected {
+  background-color: #145694;
+  border-radius: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.NEWS img {
+  margin-top: 30px;
+}
+
+.NEWS h3 {
+  margin: 10px;
+  color: #1243c0;
+}
+
+.NEWS h2 {
+  color: #030303;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 1.2;
+  display: block;
+  width: 300px;
+}
+
+.NEWS p {
+  width: 300px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.NEWS h3 {
+  margin: 10px;
+  color: #1243c0;
+}
+
+hr {
+  width: 5px;
+  height: 700px;
+  margin-top: 20px;
+  background-color: #0a1d4d;
+  border-radius: 50rem;
+}
+
+.NEWS_PRINCIPAL img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.NEWS_PRINCIPAL h2 {
+  color: #030303;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 1.2;
+  display: block;
+  width: 500px;
+}
+
+.NEWS_PRINCIPAL p {
+  width: 500px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.rodape {
+  height: 7vh;
+
+  background-color: #0a1d4d;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+
+.rodape p {
+  font-size: 0.75rem;
+}

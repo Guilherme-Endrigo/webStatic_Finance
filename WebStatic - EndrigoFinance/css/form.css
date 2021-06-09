@@ -1,0 +1,64 @@
+.Data {
+  display: flex;
+  flex-direction: row;
+}
+
+.dadosPessoais {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 1.2;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 3px;
+  border-style: groove;
+  border-color: #0a1d4d;
+}
+
+.sugestao {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 3px;
+  border-style: groove;
+  border-color: #0a1d4d;
+}
+
+#boxSugestao {
+  font-size: 30px;
+  border-color: #0a1d4d;
+}
+
+#inputEmail {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-color: #0a1d4d;
+}
+
+#textArea {
+  width: 400px;
+  height: 250px;
+  border-color: #0a1d4d;
+}
+
+#inputEnviar {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-color: #0a1d4d;
+}
+
+/*.empresa {}*/
+
+.empresa img {
+  width: 450px;
+  height: 576px;
+  margin-left: 14px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
